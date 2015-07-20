@@ -15,6 +15,7 @@
 		704767B21B5CE34B009EC4DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 704767B01B5CE34B009EC4DC /* LaunchScreen.xib */; };
 		704767BE1B5CE34B009EC4DC /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 704767BD1B5CE34B009EC4DC /* weiboTests.m */; };
 		704767C91B5CE420009EC4DC /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 704767C81B5CE420009EC4DC /* Cat.m */; };
+		E1882A1C1B5CE9BD0021FDE5 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = E1882A1B1B5CE9BD0021FDE5 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		704767BD1B5CE34B009EC4DC /* weiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboTests.m; sourceTree = "<group>"; };
 		704767C71B5CE420009EC4DC /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		704767C81B5CE420009EC4DC /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		E1882A1A1B5CE9BD0021FDE5 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		E1882A1B1B5CE9BD0021FDE5 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				704767A11B5CE34B009EC4DC /* Supporting Files */,
 				704767C71B5CE420009EC4DC /* Cat.h */,
 				704767C81B5CE420009EC4DC /* Cat.m */,
+				E1882A1A1B5CE9BD0021FDE5 /* Dog.h */,
+				E1882A1B1B5CE9BD0021FDE5 /* Dog.m */,
 			);
 			path = weibo;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			files = (
 				704767C91B5CE420009EC4DC /* Cat.m in Sources */,
 				704767AA1B5CE34B009EC4DC /* ViewController.m in Sources */,
+				E1882A1C1B5CE9BD0021FDE5 /* Dog.m in Sources */,
 				704767A71B5CE34B009EC4DC /* AppDelegate.m in Sources */,
 				704767A41B5CE34B009EC4DC /* main.m in Sources */,
 			);
@@ -424,6 +430,7 @@
 				704767C31B5CE34B009EC4DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		704767C41B5CE34B009EC4DC /* Build configuration list for PBXNativeTarget "weiboTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				704767C61B5CE34B009EC4DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
