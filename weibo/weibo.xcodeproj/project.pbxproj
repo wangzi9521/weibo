@@ -14,6 +14,7 @@
 		704767AF1B5CE34B009EC4DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704767AE1B5CE34B009EC4DC /* Images.xcassets */; };
 		704767B21B5CE34B009EC4DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 704767B01B5CE34B009EC4DC /* LaunchScreen.xib */; };
 		704767BE1B5CE34B009EC4DC /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 704767BD1B5CE34B009EC4DC /* weiboTests.m */; };
+		704767C91B5CE420009EC4DC /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 704767C81B5CE420009EC4DC /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		704767B71B5CE34B009EC4DC /* weiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		704767BC1B5CE34B009EC4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		704767BD1B5CE34B009EC4DC /* weiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboTests.m; sourceTree = "<group>"; };
+		704767C71B5CE420009EC4DC /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		704767C81B5CE420009EC4DC /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				704767AE1B5CE34B009EC4DC /* Images.xcassets */,
 				704767B01B5CE34B009EC4DC /* LaunchScreen.xib */,
 				704767A11B5CE34B009EC4DC /* Supporting Files */,
+				704767C71B5CE420009EC4DC /* Cat.h */,
+				704767C81B5CE420009EC4DC /* Cat.m */,
 			);
 			path = weibo;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				704767C91B5CE420009EC4DC /* Cat.m in Sources */,
 				704767AA1B5CE34B009EC4DC /* ViewController.m in Sources */,
 				704767A71B5CE34B009EC4DC /* AppDelegate.m in Sources */,
 				704767A41B5CE34B009EC4DC /* main.m in Sources */,
